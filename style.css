@@ -1,0 +1,43 @@
+body {
+  font-size: 16px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.title {
+  background-color: #ffe194;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 10px 0;
+}
+.search {
+  background-color: #c9f3ea;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 30px 0;
+  border-bottom: 1px solid black;
+}
+.search span {
+  margin-top: 3px;
+}
+.movieList {
+  width: 100%;
+
+  background-color: #c9f3ea;
+}
+.movieList div {
+}
+.movieList .ul {
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+}
+
+.movieList .ul .li {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+}

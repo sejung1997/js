@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/sejung1997/js/issues"
   },
-  "homepage": "https://github.com/sejung1997/js#readme"
+  "homepage": "https://github.com/sejung1997/js#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.11"
+  }
 }
